@@ -24,24 +24,24 @@ The Cybersecurity Portal is a comprehensive solution designed to centralize the 
 
 The dashboard provides a centralized interface for managing servers, including server provisioning, configuration, monitoring, and maintenance. Key features include:
 
--   Provisioning new servers.
--   Real-time monitoring of server health and resource utilization.
--   Identifying and addressing potential bottlenecks and inefficiencies.
+- Provisioning new servers.
+- Real-time monitoring of server health and resource utilization.
+- Identifying and addressing potential bottlenecks and inefficiencies.
 
 ## Reporting and Analytics
 
 This component offers advanced reporting and analytics capabilities:
 
--   Data aggregation from various sources.
--   Visualization using Grafana with dynamic charts and tables.
--   Custom report generation based on specific metrics and time periods.
+- Data aggregation from various sources.
+- Visualization using Grafana with dynamic charts and tables.
+- Custom report generation based on specific metrics and time periods.
 
 ## Role-Based Access Control (RBAC)
 
 RBAC ensures secure access to sensitive information:
 
--   User roles (e.g., administrator, manager, technician) with assigned permissions.
--   Access to configured resources (CRs) restricted to designated users or service accounts.
+- User roles (e.g., administrator, manager, technician) with assigned permissions.
+- Access to configured resources (CRs) restricted to designated users or service accounts.
 
 ## Kube-State-Metrics (KSM) for H/VPA Recommendations
 
@@ -82,3 +82,7 @@ Optionally, consider adding a component for caching frequently accessed data and
 ## Kubernetes Auditing & Security Dashboard
 
 Implements a UI-based tool for intuitive Kubernetes audit log overview and explores third-party security solutions for automated threat detection, vulnerability scanning, and policy violation alerts.
+
+---
+
+Feel free to modify and expand this README to suit your project's specific details and requirements. Providing clear and comprehensive documentation is essential for the success of your project.
