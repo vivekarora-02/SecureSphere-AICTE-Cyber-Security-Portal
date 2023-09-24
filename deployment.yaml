@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-web-app
+  labels:
+    app: web
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+      annotations:
+        linkerd.io/inject: enabled  # This annotation ensures Linkerd sidecar is injected
+    spec:
+      containers:
+      - name: web-container
+        image: my-web-app-image:latest  # replace this with your actual image name
+        ports:
+        - containerPort: 8080
